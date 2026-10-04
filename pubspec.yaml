@@ -20,11 +20,15 @@ dependencies:
   supabase_flutter: ^2.5.0
 
   # Untuk PDF dan cetak dokumen
-  pdf: ^3.10.4             # Tambahkan ini
-  printing: ^5.11.1        # Tambahkan ini
+  pdf: ^3.10.4
+  printing: ^5.11.1
 
   # Untuk menyimpan status reset tahunan secara lokal di HP
   shared_preferences: ^2.3.2
+
+  # Package untuk membaca file .env (Sangat penting untuk keamanan API Key)
+  flutter_dotenv: ^5.2.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -37,13 +41,14 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # Pendaftaran aset gambar agar bisa dibaca oleh aplikasi
+  # Pendaftaran aset gambar & file .env agar terbaca oleh aplikasi
   assets:
     - assets/images/
+    - .env
 
 # Konfigurasi pembuatan ikon aplikasi
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: false
   image_path: "assets/images/app_icon.png"
-  min_sdk_android: 21y
+  min_sdk_android: 21
