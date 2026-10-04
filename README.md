@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚗 Aplikasi Manajemen Operasional Rental Mobil (Zahira Trans)
 
 Aplikasi mobile berbasis **Flutter** yang terintegrasi dengan **Supabase** untuk membantu pengelolaan operasional rental mobil secara *real-time*. Aplikasi ini dirancang untuk memudahkan pemilik atau admin rental dalam memantau armada, transaksi, konfirmasi pengambilan/pengembalian kendaraan, hingga analisis produktivitas unit.
@@ -38,3 +39,7 @@ Aplikasi mobile berbasis **Flutter** yang terintegrasi dengan **Supabase** untuk
 1. **Clone repository ini:**
    ```bash
    git clone [https://github.com/username/nama-repository.git](https://github.com/username/nama-repository.git)
+=======
+# rental-mobil-app
+Aplikasi Manajemen Rental Mobil berbasis Flutter &amp; Supabase
+>>>>>>> 81d49c48821d8764bd486e430ce107edf3bf56d3
